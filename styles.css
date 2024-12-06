@@ -1,0 +1,469 @@
+
+/* RESET */
+/* * {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} */
+
+
+.icon_back_btn {
+
+    width: 20%;
+
+}
+
+
+.no_underline {
+
+    text-decoration: none;
+
+}
+
+.li_menu {
+
+    margin-bottom: 5px;
+    
+}
+
+
+
+/* ------------------------------------- +++ [ S T Y L E S    D E    L ' E X O    0 3 ] +++ ------------------------------------- */
+
+.btn_container {
+    
+    display: flex;
+    gap: 5px;
+    ;
+}
+
+/* ------------------------------------- +++ [ S T Y L E S    D E    L ' E X O    0 3 ] +++ ------------------------------------- */
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+/* ------------------------------------- +++ [ S T Y L E S    D E    L ' E X O    0 4 ] +++ ------------------------------------- */
+
+.input_form {
+
+    width: 14%;
+
+}
+
+/* ------------------------------------- +++ [ S T Y L E S    D E    L ' E X O    0 4 ] +++ ------------------------------------- */
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+/* ------------------------------------- +++ [ S T Y L E S    D E    L ' E X O    0 6 ] +++ ------------------------------------- */
+
+
+#body_exo6 {
+
+    background-color:#0f4d8f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.titre_exo06 {
+
+    color: white;
+
+}
+
+.main_container {
+
+    width: 40%;
+    border: solid white 4px;
+    border-radius: 20px;
+    padding: 35px;
+    margin-bottom: 20px;
+
+}
+
+
+/* ------------------------------------- +++ [ S T Y L E S    D E    L ' E X O    0 6 ] +++ ------------------------------------- */
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+/* ------------------------------------- +++ [ S T Y L E S    D E    L ' E X O    0 7 ] +++ ------------------------------------- */
+
+
+
+
+#body_exo07 {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main_container07 {
+
+    display:flex;
+    flex-direction: row;
+    height: 60vh;
+    
+
+}
+
+.section01 {
+
+    
+    width: 100%;
+
+    background-color: rgb(209, 15, 15);
+    
+
+}
+
+.section02 {
+
+    width: 100%;
+
+    background-color: black;
+
+}
+
+.img_container07 {
+    
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.logo_flag {
+
+    width: 100%;
+
+}
+
+.infos {
+
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.container_titre {
+
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h2_exo07 {
+
+    font-size: 30px;
+
+}
+
+.linebreak_exo07 {
+
+    width: 100%;
+
+
+}
+
+.p_exo07 {
+
+    padding-top: 4px;
+    font-size: 20px;
+
+}
+
+.container_infoDetails {
+
+
+
+}
+
+/* ------------------------------------- +++ [ S T Y L E S    D E    L ' E X O    0 7 ] +++ ------------------------------------- */
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+/* ------------------------------------- +++ [ S T Y L E S    D E    L ' E X O    0 8 ] +++ ------------------------------------- */
+
+
+.body_exo08 {
+
+    background-color: #5c94fc;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.main_bloc_exo08 {
+    
+    width: 40%;
+    height: 60vh;
+    
+    display:flex;
+    flex-direction: column;
+    border: solid 3px black;
+    
+    margin: 10px;
+    
+    
+}
+
+.bloc {
+
+    border: solid 3px rgb(0, 0, 0);
+    border-left: unset;
+    border-bottom: unset;
+    color: white;
+    height: 100%;
+
+}
+
+.bloc01 {
+
+    background-color:#4976c9;
+    width: 25%;
+    border-top: unset;
+}
+
+.bloc02 {
+
+    background-color:#375897;
+    width: 50%;
+
+}
+
+.bloc03 {
+
+    background-color:#243b64;
+    width: 75%;
+    border-left: unset;
+
+}
+
+.bloc04 {
+
+    border-right: unset;
+    background-color:#121d32;
+
+}
+
+
+
+/* ------------------------------------- +++ [ S T Y L E S    D E    L ' E X O    0 8 ] +++ ------------------------------------- */
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+/* ------------------------------------- +++ [ S T Y L E S    D E    L ' E X O    0 9 ] +++ ------------------------------------- */
+
+
+
+.titre_exo09 {
+
+    font-family: monospace;
+    color: #008CBA;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+
+.titre_date {
+
+    font-family:monospace;
+    font-style: italic;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 0 6px;
+
+}
+
+.container_button_exo09{
+
+    margin: 10px 0;
+
+}
+
+.btnexo09 {
+
+    border: unset;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-right: 5px;
+    color: white;
+}
+
+.btn_exo09_populaire {
+    
+    background-color:#008CBA;
+
+}
+
+.btn_exo09_regarder {
+
+    background-color:#4CAF50;
+}
+
+.btn_exo09_croissance {
+
+    background-color:#555555;
+
+}
+
+.container_table_ex09 {
+
+    margin-bottom: 30px;
+
+}
+
+.table_exo09 {
+
+    border: solid 1px black;
+    font-family: monospace;
+
+}
+
+.th_exo09 {
+
+    border: solid 1px black;
+    background-color: lightgray;
+
+}
+
+.td_exo09 {
+
+    border: solid 1px black;
+
+}
+
+.streamer_name {
+
+    color:white;
+    background-color: #008CBA;
+    margin-left:10px;
+
+}
+
+.th_stat_exo09 {
+
+    width: 45%;
+    
+}
+
+.tr_stat_exo09 {
+
+    border: solid;
+}
+
+.table_stat_exo09 {
+
+    border: 1px solid black;
+    width: 100%;
+
+
+}
+
+.td_statexo09 {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    
+}
+
+.th_statexo9 {
+
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    background-color:#4CAF50;
+    color: white;
+
+}
+
+
+
+.container_table_statexo09 {
+
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+
+}
+
+.container_stat {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* ------------------------------------- +++ [ S T Y L E S    D E    L ' E X O    0 9 ] +++ ------------------------------------- */
+

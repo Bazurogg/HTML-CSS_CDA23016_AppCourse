@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo 05 - Distanciel HtmlCss</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    
+    <div class="button_retour">
+        <a href="index.html">
+            <button>MENU PRINCIPAL</button>
+        </a>
+    </div>
+
+    <h1>Paiement en ligne</h1>
+
+    <h2>1 / Identité</h2>
+
+    <fieldset>
+
+        <label for="prénom">Prénom :</label>
+        <input type="text" name="prénom" id="prénom"><br>
+
+        <br>
+
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom"><br>
+
+        <br>
+
+        <label for="email">Email :</label>
+        <input type="text" name="email" id="email"><br>
+
+    </fieldset>
+
+    <h2>2 / Adresse</h2>
+
+    <fieldset>
+
+        <label for="adresse">Adresse :</label>
+        <input type="text" name="adresse" id="adresse"><br>
+
+        <br>
+
+        <label for="nom">Code postal :</label>
+        <input type="text" name="code postal" id="code postal"><br>
+
+        <br>
+
+        <label for="nom">Ville :</label>
+        <input type="text" name="ville" id="ville"><br>
+
+    </fieldset>
+
+    <h2>3 / Informations de paiement </h2>
+
+    <fieldset>
+
+        <span>Type de paiement:</span>
+        <input type="radio" name="bitcoin" id="bitcoin">
+        <label for="bitcoin"><img src="ressources_distanciel/html-bitcoin.png" alt="logo bitcoin">Bitcoin</label>
+        <input type="radio" name="mastercard" id="mastercard">
+        <label for="mastercard"><img src="ressources_distanciel/html-mastercard.png" alt="logo mastercard">Mastercard</label>
+        <input type="radio" name="visa" id="visa">
+        <label for="visa"><img src="ressources_distanciel/html-visa.png" alt="logo visa">Visa</label>
+
+        <br><br>
+
+        <label for="numero carte">Numéro de la carte bancaire :</label>
+        <input type="text" name="numero_carte" id="numero_carte">
+
+        <br><br>
+
+        <label for="numero carte">Numéro du porteur de la carte bancaire :</label>
+        <input type="text" name="numero_carte" id="numero_carte">
+
+        <br><br>
+
+        <label for="numero carte">Code de sécurité :</label>
+        <input type="text" name="numero_carte" id="numero_carte">
+
+    </fieldset>
+
+
+    <h2>4 / Confirmation</h2>
+
+
+    <fieldset>
+
+        <input type="checkbox" name="cgv" id="cgv">
+        <label for="cgv">J'accepte les <a href="#">CGV</a></label>
+        
+        <br><br>
+    
+        <button type="submit">Envoyer</button>
+        
+    </fieldset>
+    
+</body>
+
+</html>

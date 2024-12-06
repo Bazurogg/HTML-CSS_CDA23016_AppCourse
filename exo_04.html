@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo 04 - Distanciel HtmlCss</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+
+    <div class="button_retour">
+        <a href="index.html">
+            <button>MENU PRINCIPAL</button>
+        </a>
+    </div>
+
+    <h1>Dresseur de pokémon</h1>
+
+    <p>Les champs marqués d'une * sont obligatoires.</p>
+
+
+    <fieldset class="form-dresseur">
+
+        <legend>Nouveau dresseur</legend>
+
+        <div class="input_form">
+
+            <label for="nom">Nom*</label>
+            <input type="text" name="nom" id="nom">
+            
+            <br><br>
+
+            <label for="description">Description</label>
+            <textarea name="description" id="description" rows="3" cols="23" ></textarea>
+
+            <br><br>
+
+            <span>Équipe</span><br>
+            <input type="radio" name="rouge" id="rouge">
+            <label for="rouge">Rouge</label><br>
+            <input type="radio" name="rouge" id="rouge">
+            <label for="jaune">Jaune</label><br>
+            <input type="radio" name="rouge" id="rouge">
+            <label for="bleu">Bleu</label><br>
+
+            <br>
+
+            <span>Anniversaire*</span><br>
+            <input type="date" name="" id="">
+
+            <br><br>
+
+            <button type="submit">Envoyer</button>
+
+        </div>
+
+        
+    </fieldset>
+
+
+</body>
+</html>
